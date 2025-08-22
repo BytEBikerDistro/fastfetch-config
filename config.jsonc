@@ -4,8 +4,8 @@
         "type": "auto",
         "height": 10,
         "padding": {
-            "top": 1,
-            "left": 1
+            "top": 2,
+            "left": 2
         }
     },
     "display": {
@@ -80,19 +80,15 @@
             "key": "  ",
             "keyColor": "bright_cyan"
         },
-        {
-            "type": "gpu",
-            "key": "  󱤓",
-            "keyColor": "red",
-            "if": {
-                "type": "gpu",
-                "condition": "!empty"
-            }
-        },
         "break",
         {
             "type": "custom",
             "format": "┗━━━━━━━━━━━━━━ Hardware Information ━━━━━━━━━━━━━━┛"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "──────────────────────────────────────────────────────────"
         }
     ]
 }
